@@ -1,0 +1,54 @@
+body {
+	padding: 16px;
+	margin: auto;
+	width: 80%;
+	border: 5px solid black;
+}
+
+.tab-results {
+	margin-bottom: 16px;
+	padding: 8px;
+}
+
+.rank,
+.name,
+.login{
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.rank {
+	width: 64px;
+	text-align: end;
+	margin-bottom: 16px;
+}
+
+.name,
+.login {
+	width: 20%;
+}
+
+#checkboxes {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.checkbox-label {
+	margin-left: 6px;
+}
+
+.checkbox-output {
+	display: none;
+}
+
+.button {
+	width: 64px;
+	padding: 8px;
+	border: none;
+}
+
+#calcul-btn {
+	display: block;
+	margin: 32px auto 32px auto;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pj pagerank</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Projet Classificateur Monpierre-Lacombe</h1>
+
+	<div>
+		<h2>Matières selectionnées: </h2>
+		<div id="checkboxes">Chargement...</div>
+
+		<button class="button focusable" tabindex="0" id="calcul-btn">Trouver</button>
+	</div>
+
+	<h2>Classement: </h2>
+	<div class="list-item">
+		<b class="rank">Place</b>
+		<b class="name">Elève</b>
+		<b class="login">Login</b>
+	</div>
+	<div id="results">Chargement...</div>
+
+	<script src="http://www.iut-fbleau.fr/projet/maths/?f=votes.js"></script>
+	<script src="http://www.iut-fbleau.fr/projet/maths/?f=logins.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
